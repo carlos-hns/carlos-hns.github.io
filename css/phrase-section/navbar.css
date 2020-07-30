@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}

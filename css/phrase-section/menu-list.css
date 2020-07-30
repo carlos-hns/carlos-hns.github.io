@@ -1,0 +1,13 @@
+.menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-list li {
+    padding-right: 10px;
+
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 13px;
+}

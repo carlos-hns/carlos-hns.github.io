@@ -3,17 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Feliz dia das Mães</title>
+    <title>Portifólio - CarlosDEV</title>
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/phrase-section/phrase-section.css">
+    <link rel="stylesheet" href="./css/phrase-section/navbar.css">
+    <link rel="stylesheet" href="./css/phrase-section/menu-list.css">
+    <link rel="stylesheet" href="./css/phrase-section/phrase-container.css">
+
+    <link rel="stylesheet" href="./css/about-me-section/about-me-section.css">
+    <link rel="stylesheet" href="./css/about-me-section/rounded-image.css">
+    <link rel="stylesheet" href="./css/about-me-section/about-me-text-container.css">
+
+
+    <link rel="stylesheet" href="./css/projects-section/projects-section.css">
+    <link rel="stylesheet" href="./css/projects-section/projects-container.css">
+    <link rel="stylesheet" href="./css/projects-section/image-container.css">
+    <link rel="stylesheet" href="./css/projects-section/single-project-container.css">
+    <link rel="stylesheet" href="./css/projects-section/project-text.css">
+
+    <link rel="stylesheet" href="./css/contact-section/contact-section.css">
+    
 
 </head>
 <body>
-    <img class="img" src="mae.png" width="100px">
-    <p class="text_img">Feliz Dia das Mães</p>
-    <p class="text-bellow">Obrigado por tudo, amo você!</p>
-    <img class="gif" src="gift.gif">
+    <section class="phrase-section">
+        <nav class="navbar">
+            <p>CARLOS DEV</p>
+            <ol class="menu-list">
+                <li><a href="#about-me-section">SOBRE MIM </a></li>
+                <li><a href="#projects-section">PROJETOS </a></li>
+                <li><a href="#">CONTATO </a></li>
+            </ol>
+        </nav>
+
+        <div class="phrase-container">
+            <p>LONGOS VOOS.</p>
+            <p>PEQUENAS GRANDES BATALHAS.</p>
+        </div>
+    </section>
+    <section class="about-me-section" id="about-me-section">
+        <img src="imgs/eu.jpeg" alt="Foto de Carlos Henrique" class="rounded-image"></img>
+        <div class="about-me-text-container">
+            <p>SOBRE MIM</p>
+            <p>Me chamo Carlos Henrique, tenho 19 anos. Sou estudante de ciência da computação. Desenvolvedor júnior amante do ecosistema Javascrit e Flutter.</p>
+        </div>
+    </section>
+    <section class="projects-section" id="projects-section">
+        <p>PROJETOS</p>
+        <ol class="projects-container">
+            <li class="single-project-container">
+                <div class="image-container">
+                    <img src="/imgs/logo.png" alt="Imagem   do Projeto"></img>
+                </div>
+
+                <div class="project-text">
+                    <p>Titulo</p>
+                    <p>Lorem Ipsum is simply dummy text of 
+                        the printing and typesetting industry
+                    </p>
+                </div>
+            </li>
+            <li class="single-project-container">
+                <div class="image-container">
+                    <img src="/imgs/logo.png" alt="Imagem   do Projeto"></img>
+                </div>
+
+                <div class="project-text">
+                    <p>Titulo</p>
+                    <p>Lorem Ipsum is simply dummy text of 
+                        the printing and typesetting industry
+                    </p>
+                </div>
+            </li>
+            <li class="single-project-container">
+                <div class="image-container">
+                    <img src="/imgs/logo.png" alt="Imagem   do Projeto"></img>
+                </div>
+
+                <div class="project-text">
+                    <p>Titulo</p>
+                    <p>Lorem Ipsum is simply dummy text of 
+                        the printing and typesetting industry
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <section class="contact-section">
+        <p>CONTATO</p>
+        <form>
+            <input type="text" id="fname" name="fname">
+            <input type="email" id="lname" name="lname">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 </body>
 </html>

@@ -1,0 +1,13 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.projects-section p {
+    font-size: 30px;
+    font-weight: bold;
+}

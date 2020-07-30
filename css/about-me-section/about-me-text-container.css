@@ -1,0 +1,12 @@
+.about-me-text-container {
+    width: 40%;
+    margin: 80px;
+    font-weight: normal;
+}
+
+.about-me-text-container :first-child {
+    color: #72d2e3ff;
+    font-weight: bold;
+
+    padding-bottom: 10px;
+}
