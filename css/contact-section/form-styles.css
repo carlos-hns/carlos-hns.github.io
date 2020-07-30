@@ -1,0 +1,29 @@
+input {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #72d2e3ff;
+    color: white;
+    
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 40%;
+    height: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #72d2e3ff;
+    color: white;
+    
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-radius: 2px;
+    resize: none;
+}
