@@ -1,0 +1,15 @@
+.rounded-div {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: #caaaf3ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    color: #72d2e3ff;
+    font-size: 14px;
